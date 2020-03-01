@@ -38,7 +38,7 @@ function App() {
       </Link>
 
     
-      <Route exact path = "/LoginPage" component={LoginForm} />
+      <Route exact path = "/login" component={LoginForm} />
     </div>
   );
 }
