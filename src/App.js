@@ -4,6 +4,7 @@ import './App.css';
 import {Route, Link} from "react-router-dom";
 import LoginForm from './Components/LoginForm';
 import styled from 'styled-components'
+import Items from "./Components/Items"
 
 const Button = styled.button`
   display: flex;
@@ -36,7 +37,8 @@ function App() {
       <Link to = "/login">
         <Button>Register/Login</Button>
       </Link>
-
+      <Items />
+     
     
       <Route exact path = "/login" component={LoginForm} />
     </div>
