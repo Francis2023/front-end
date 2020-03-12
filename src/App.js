@@ -37,11 +37,13 @@ function App() {
       <Link to = "/login">
         <Button>Register/Login</Button>
       </Link>
-      <Items />
+    
      
     
       <Route exact path = "/login" component={LoginForm} />
+      <Items />
     </div>
+   
   );
 }
 
